@@ -2,6 +2,7 @@ const displayValorAnterior = document.getElementById('valor-anterior');
 const displayValorActual = document.getElementById('valor-actual');
 const botonesNumeros = document.querySelectorAll('.numero');
 const botonesOperadores = document.querySelectorAll('.operador');
+//Comentario para probar la implementación continua
 
 const display = new Display(displayValorAnterior, displayValorActual);
 let sound = new Audio ('sonidotecla.mp3');
